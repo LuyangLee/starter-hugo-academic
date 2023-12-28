@@ -55,7 +55,7 @@ social:
     link: https://scholar.google.com/citations?user=xdQiB4UAAAAJ&hl=zh-CN
   - icon: github
     icon_pack: fab
-    link: https://github.com/YangLeee
+    link: https://github.com/LuyangLee
 
   # - icon: linkedin
   #   icon_pack: fab
