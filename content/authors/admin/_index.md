@@ -22,12 +22,15 @@ organizations:
     url: http://www.ict.ac.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interest is software-hardware codesign for enhancing datacenter application acceleration, including computation, networking, and security.
+bio: My research interest is high-performance data-center networking techniques (eg., RDMA) and software-hardware codesign for application acceleration.
+# software-hardware codesign for accelerating datacenter applications, including computation, networking, and security.
+# My research interest is software-hardware codesign for enhancing datacenter application acceleration, including computation, networking, and security.
 
 # Interests to show in About widget
 interests:
-  - Datacenter/Cloud Network (Hardware-Based Transport)
-  - Hardware-software Co-design for Acceleration (Networking, Computing, Security).
+  - RDMA-related Technique.
+  - Software-hardware Co-design.
+  - FPGA Acceleration.
 
 # Education to show in About widget
 education:
@@ -68,14 +71,16 @@ social:
   #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'lly_ict@163.com'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-I am a Ph.D. candidate at [ICT, CAS](http://www.ict.ac.cn/), advised by [Prof. Gaogang Xie](https://people.ucas.ac.cn/~_xie?language=en) and Prof. Quan Yu.
+Hi, I am a Ph.D. candidate at [ICT, CAS](http://www.ict.ac.cn/), advised by [Prof. Gaogang Xie](https://people.ucas.ac.cn/~_xie?language=en) and [Prof. Quan Yu](https://ict.cas.cn/sourcedb/cn/jssrck/201903/t20190311_5253743.html). Throughout this timeframe, under the mentorship of [Layong Luo](https://luolayong.com/), I actively engaged in designing and implementing a variety of real-world applications([Tiara](https://www.usenix.org/conference/nsdi22/presentation/zeng), [SRNIC](https://www.usenix.org/conference/nsdi23/presentation/wang-zilong), [Faery](https://www.usenix.org/conference/osdi22/presentation/zeng)).
+Before that, I received my B.Eng in Computer Science in [Huazhong University of Science and Technology (HUST)](https://hust.edu.cn/) in 2019.
 
-My research interests revolve around software-hardware codesign for accelerating datacenter and cloud applications, including networking, computing, and security domains.
+My research interest include **high-performance datacenter networking** (eg., RDMA) and **software-hardware codesign** for application acceleration.
+<!-- My research interests revolve around software-hardware codesign for accelerating datacenter applications, including networking, computing, and security domains. -->
 
-Throughout this timeframe, under the mentorship of [Layong Luo](https://luolayong.com/), I actively engaged in designing and implementing various real-world applications([Tiara](https://www.usenix.org/conference/nsdi22/presentation/zeng), [SRNIC](https://www.usenix.org/conference/nsdi23/presentation/wang-zilong), [Faery](https://www.usenix.org/conference/osdi22/presentation/zeng)).
+
 {style="text-align: justify;"}

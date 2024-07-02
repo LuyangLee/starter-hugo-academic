@@ -38,9 +38,88 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: About me
+      title: About Me
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+  - block: accomplishments
+    content:
+      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+      title: 'Selected Publications'
+      subtitle:
+      # Date format: https://wowchemy.com/docs/customization/#date-format
+      date_format: Jan 2006
+      # Accomplishments.
+      #   Add/remove as many `item` blocks below as you like.
+      #   `title`, `organization`, and `date_start` are the required parameters.
+      #   Leave other parameters empty if not required.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - 
+          date_end: ''
+          date_start: '2022-04-01'  
+          description: 'Chaoliang Zeng, Layong Luo,Teng Zhang, Zilong Wang, **<u>Luyang Li</u>**, Wenchen Han, Nan Chen, Lebing Wan, Lichao Liu, Zhipeng Ding, Tao Feng, Feng Ning, Kai Chen, Chuanxiong Guo *In Proc\. NSDI''22*'
+          icon: envelope
+          icon_pack: fas
+          # organization: edX
+          # organization_url: https://www.edx.org
+          title: 'Tiara: A Scalable and Efficient Hardware Acceleration Architecture for Stateful Layer-4 Load Balancing'
+          url: https://www.usenix.org/conference/nsdi22/presentation/zeng
+        - 
+          date_end: ''
+          date_start: '2024-08-07'  
+          description: 'Zilong Wang, Xinchen Wan, **<u>Luyang Li</u>**, Yijun Sun, Peng Xie, Xin Wei, Qingsong Ning, Junxue Zhang, Kai Chen *In Proc\. SIGCOMM''24*'
+          # organization: edX
+          # organization_url: https://www.edx.org
+          title: 'Fast, Scalable, and Accurate Rate Limiter for RDMA NICs'
+          url: https://cse.hkust.edu.hk/~kaichen/papers/tassel-sigcomm24.pdf
+        # - certificate_url: https://www.datacamp.com
+        #   date_end: '2020-12-21'
+        #   date_start: '2020-07-01'
+        #   description: ''
+        #   organization: DataCamp
+        #   organization_url: https://www.datacamp.com
+        #   title: 'Object-Oriented Programming in R'
+        #   url: ''
+    design:
+      columns: '2'
+      background:
+      #   gradient_end: '#79b9e2'
+      #   gradient_start: '#79b9e2'
+        text_color_light: false
+  - block: experience
+    content:
+      title: Experience
+      # Date format for experience
+      #   Refer to https://wowchemy.com/docs/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: Intern
+          company: Bytedance
+          company_url: ''
+          # company_logo: org-gc
+          location: Beijing
+          date_start: '2020-09-28'
+          date_end: ''
+          description: |2-
+              Projects include:
+              * Designing and developing scalable and efficient security gateways.
+              * Designing and building a basic platform for heterogeneous FPGAs in the cloud.
+              * Cutting-Edge Research.
+        # - title: Professor of Semiconductor Physics
+        #   company: University X
+        #   company_url: ''
+        #   company_logo: org-x
+        #   location: California
+        #   date_start: '2016-01-01'
+        #   date_end: '2020-12-31'
+        #   description: Taught electronic engineering and researched semiconductor physics.
+    design:
+      columns: '2'
   - block: features
     content:
       title: Skills
@@ -59,78 +138,7 @@ sections:
           description: 80%
           icon: python
           icon_pack: fab
-  - block: experience
-    content:
-      title: Experience
-      # Date format for experience
-      #   Refer to https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      # Experiences.
-      #   Add/remove as many `experience` items below as you like.
-      #   Required fields are `title`, `company`, and `date_start`.
-      #   Leave `date_end` empty if it's your current employer.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - title: Intern
-          company: Bytedance
-          company_url: ''
-          company_logo: org-gc
-          location: Beijing
-          date_start: '2020-09-28'
-          date_end: ''
-          description: |2-
-              Responsibilities include:
-              * Design and develop network-related hardware acceleration applications.
-              * Cutting-Edge Research.
-        # - title: Professor of Semiconductor Physics
-        #   company: University X
-        #   company_url: ''
-        #   company_logo: org-x
-        #   location: California
-        #   date_start: '2016-01-01'
-        #   date_end: '2020-12-31'
-        #   description: Taught electronic engineering and researched semiconductor physics.
-    design:
-      columns: '2'
-  # - block: accomplishments
-  #   content:
-  #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-  #     title: 'Accomplish&shy;ments'
-  #     subtitle:
-  #     # Date format: https://wowchemy.com/docs/customization/#date-format
-  #     date_format: Jan 2006
-  #     # Accomplishments.
-  #     #   Add/remove as many `item` blocks below as you like.
-  #     #   `title`, `organization`, and `date_start` are the required parameters.
-  #     #   Leave other parameters empty if not required.
-  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-  #     items:
-  #       - certificate_url: https://www.coursera.org
-  #         date_end: ''
-  #         date_start: '2021-01-25'
-  #         description: ''
-  #         organization: Coursera
-  #         organization_url: https://www.coursera.org
-  #         title: Neural Networks and Deep Learning
-  #         url: ''
-  #       - certificate_url: https://www.edx.org
-  #         date_end: ''
-  #         date_start: '2021-01-01'
-  #         description: Formulated informed blockchain models, hypotheses, and use cases.
-  #         organization: edX
-  #         organization_url: https://www.edx.org
-  #         title: Blockchain Fundamentals
-  #         url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-  #       - certificate_url: https://www.datacamp.com
-  #         date_end: '2020-12-21'
-  #         date_start: '2020-07-01'
-  #         description: ''
-  #         organization: DataCamp
-  #         organization_url: https://www.datacamp.com
-  #         title: 'Object-Oriented Programming in R'
-  #         url: ''
-  #   design:
-  #     columns: '2'
+
   # - block: collection
   #   id: posts
   #   content:
