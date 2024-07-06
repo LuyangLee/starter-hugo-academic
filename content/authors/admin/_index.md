@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Luyang Li 李露阳
+title: Luyang Li
 
 # Full name (for SEO)
 first_name: Li
@@ -49,7 +49,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: 'mailto:lly_ict@163.com'
   - icon: evernote
     icon_pack: fab
     link: https://www.yinxiang.com/everhub/personal/QdFSajIX5hFNSnU_Z2FyNw?SetAuthToken=True&utm_source=yinxiang_app&utm_medium=mac&csrfBusterToken=U%3D15c03f0%3AP%3D%2F%3AE%3D18a06ad59de%3AS%3Ddbc51f23f9bb0fc3f7bad0238d7b18b0
@@ -59,6 +59,9 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/LuyangLee
+  - icon: bilibili
+    icon_pack: fab
+    link: https://space.bilibili.com/352965384?spm_id_from=333.1007.0.0
 
   # - icon: linkedin
   #   icon_pack: fab
@@ -79,7 +82,7 @@ highlight_name: true
 Hi, I am a Ph.D. candidate at [ICT, CAS](http://www.ict.ac.cn/), advised by [Prof. Gaogang Xie](https://people.ucas.ac.cn/~_xie?language=en) and [Prof. Quan Yu](https://ict.cas.cn/sourcedb/cn/jssrck/201903/t20190311_5253743.html). Throughout this timeframe, under the mentorship of [Layong Luo](https://luolayong.com/), I actively engaged in designing and implementing a variety of real-world applications([Tiara](https://www.usenix.org/conference/nsdi22/presentation/zeng), [SRNIC](https://www.usenix.org/conference/nsdi23/presentation/wang-zilong), [Faery](https://www.usenix.org/conference/osdi22/presentation/zeng)).
 Before that, I received my B.Eng in Computer Science in [Huazhong University of Science and Technology (HUST)](https://hust.edu.cn/) in 2019.
 
-My research interest include **high-performance datacenter networking** (eg., RDMA) and **software-hardware codesign** for application acceleration.
+My research interests include **high-performance datacenter networking** (eg., RDMA) and **software-hardware codesign** for application acceleration.
 <!-- My research interests revolve around software-hardware codesign for accelerating datacenter applications, including networking, computing, and security domains. -->
 
 
