@@ -7,7 +7,7 @@ widget: experience
 headless: true
 
 # Order that this section appears on the page.
-weight: 90
+weight: 110
 
 title: Experience
 subtitle:
@@ -43,8 +43,9 @@ experience:
     date_end: ''
     description: |2-
         Projects include:
-        * Design and implement a scalable and efficient security gateway.
-        * Design and construct a development and deployment platforms for heterogeneous FPGAs in the cloud.
+        * Design and implement a scalable and efficient security gateway for cross-network access control.
+        * Design a unified framework for heterogeneous FPGAs acceleration in the cloud.
+        * Design a hardware-software co-design congestion control framework for datacenter network (e.g., RDMA).
         * Research cutting-edge technology and hold TED(Tech, Eng, Dev) sharing.
 
 design:

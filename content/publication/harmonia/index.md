@@ -1,30 +1,33 @@
 ---
-title: 'Fast, Scalable, and Accurate Rate Limiter for RDMA NICs (SIGCOMM''24)'
+title: 'Harmonia: A Unified Framework for Heterogeneous FPGA Acceleration in the Cloud (ASPLOS''25)'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Zilong Wang
-- Xinchen Wan
 - admin
-- Yijun Sun
-- Peng Xie
-- Xin Wei
+- Heng Pan
+- Xinchen Wan
+- Kai Lv
+- Zilong Wang
+- Qian Zhao
+- Feng Ning
 - Qingsong Ning
-- Junxue Zhang
-- Kai Chen
+- Shideng Zhang
+- Zhenyu Li
+- Layong Luo
+- Gaogang Xie
 
 # Author notes (optional)
 # author_notes:
   # - 'Equal contribution'
   # - 'Equal contribution'
 
-date: '2024-08-07T00:00:00Z'
+date: '2025-03-30T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-08-07T00:00:00Z'
+date: '2024-08-09T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -33,10 +36,10 @@ publishDate: '2024-08-07T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Proc\. SIGCOMM'24*
-publication_short: In **SIGCOMM'24**
+publication: In *Proc\. ASPLOS'25*
+publication_short: In **ASPLOS'25**
 
-abstract: "RDMA NICs desire a rate limiter that is accurate, scalable, and fast: to precisely enforce the policies such as congestion control and traffic isolation, to support a large number of flows, and to sustain high packet rates. Prior works such as SENIC and PIEO can achieve accuracy and scalability, but they are not fast enough, thus fail to fulfill the performance requirement of RNICs, due primarily to their monolithic de- sign and one-packet-per-sorting transmission. We present Tassel, a hierarchical rate limiter for RDMA NICs that can deliver high packet rates by enabling multiple-packet-per- sorting transmission, while preserving accuracy and scala- bility. At its heart, Tassel renovates the workflow of the rate limiter hierarchically: by first applying scalable rate limit- ing to the flows to be scheduled, followed by accurate rate limiting to the packets to be transmitted, while leveraging adaptive batching and packet filtering to improve the perfor- mance of these two steps. We integrate Tassel into the RNIC architecture by replacing the original QP scheduler module and implement the prototype of Tassel using FPGA. Exper- imental results show that Tassel delivers 125 Mpps packet rate, outperforming SENIC and PIEO by 3.6×, while sup- porting 16 K flows with low resource usage, 7.5% - 25.6% as compared to SENIC and PIEO, and preserving high accuracy, precisely enforcing rate limits from 100 Kbps to 100 Gbps."
+abstract: "FPGAs are gaining popularity in the cloud as accelerators for various applications. To make FPGAs more accessible for users and streamline system management, cloud providers have widely adopted the shell-role architecture on their homogeneous FPGA servers. However, the increasing heterogeneity of cloud FPGAs poses new challenges for this architecture. Previous studies either focus on homogeneous FPGAs or only partially address the portability issues for roles, while still requiring laborious shell development for providers and ad-hoc software modifications for users. This paper presents Harmonia, a unified framework for heterogeneous FPGA acceleration in the cloud. Harmonia operates on two layers: a platform-specific layer that abstracts hardware differences and a platform-independent layer that provides a unified shell for diverse roles and host software. In detail, Harmonia provides automated platform adapters and lightweight interface wrappers to manage hardware differences. Next, it builds a modularized shell composed of Reusable Building Blocks and employs hierarchical tailoring to provide a resource-efficient and easy-to-use shell for different roles. Finally, it presents a command-based interface to minimize software modifications across distinct platforms. Harmonia has been deployed in a large service provider, Douyin, for several years. It reduces shell development workloads by 69%-93% and simplifies role and software configurations with negligible overhead (<0.63%). Compared with other frameworks, Harmonia supports cross-vendor FPGAs, reduces resource consumption by 3.5%-14.9% and simplifies software configurations by 15-23x while maintaining comparable performance."
 
 # Summary. An optional shortened abstract.
 # summary: A Scalable and Efficient Hardware Acceleration Architecture for Stateful Layer-4 Load Balancing
@@ -51,7 +54,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://cse.hkust.edu.hk/~kaichen/papers/tassel-sigcomm24.pdf'
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''

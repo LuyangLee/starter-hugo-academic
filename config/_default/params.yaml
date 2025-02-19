@@ -6,7 +6,7 @@
 # Appearance
 
 appearance:
-  theme_day: ocean # minimal, academicons, cupertino, darcula, forest, light, material, midnight, rose, sky, slate, solarized, spacelab, united
+  theme_day: darcula # minimal, academicons, cupertino, darcula, forest, light, material, midnight, rose, sky, slate, solarized, spacelab, united, ocean
   theme_night: ocean
   font: rose
   font_size: L
