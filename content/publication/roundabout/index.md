@@ -51,7 +51,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://liluyang.com.cn/pdf/2024/roundabout-icnp24.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''

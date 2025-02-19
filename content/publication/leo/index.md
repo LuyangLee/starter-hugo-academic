@@ -51,7 +51,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://xcwanandy.github.io/files/2025/leo-infocom25.pdf'
+url_pdf: 'https://liluyang.com.cn/pdf/2025/leo-infocom25.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
