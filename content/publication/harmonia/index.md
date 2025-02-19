@@ -54,7 +54,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://liluyang.com.cn/pdf/2025/harmonia-asplos25.pdf'
+url_pdf: 'https://liluyang.com.cn/uploads/2025/harmonia-asplos25.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''

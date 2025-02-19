@@ -51,7 +51,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://liluyang.com.cn/pdf/2024/tassel-sigcomm24.pdf'
+url_pdf: 'https://liluyang.com.cn/uploads/2024/tassel-sigcomm24.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
